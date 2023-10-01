@@ -2,8 +2,6 @@ import {OfferGenerator} from './offer-generator.interface.js';
 import {MockServerData} from '../../types/index.js';
 import {getRandomItem, getRandomItems, generateRandomValue} from '../../helpers/index.js';
 
-const AMOUNT_OF_PLACE_IMAGES = 6;
-
 enum OfferRatings {
   Min = 1,
   Max = 5,
