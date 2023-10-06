@@ -4,7 +4,7 @@ import { HousesTypes } from './houses-types.enum.js';
 import { User } from './user.type.js';
 
 export type Offer = {
-  name: string;
+  title: string;
   description: string;
   date: string;
   city: Cities;
